@@ -1,8 +1,8 @@
 let errorCodes = {
-    404: "Not Found! Oh noes! Check your URL",
-    500: "Ya sorry can't help you... the server is just borked",
-    403: "You shall not pass! Unless you have creds. Then sure go ahead.",
-    503: "Service is unavailable! The servers are all having a coffee break."
+    404: "Address not found.",
+    500: "Server error.",
+    403: "Credentials are invalid.",
+    503: "Service unavailable."
 }
 
 async function fetchData(sourceURL) {
@@ -11,7 +11,6 @@ async function fetchData(sourceURL) {
         if (response.status !== 200) {
             throw new Error(`Danger Will Robinson! Error ${response.status}: ${errorCodes[response.status]}`);
         } 
-        
         return response;           
     });
 
@@ -30,6 +29,5 @@ async function postData(sourceURL) {
 
     return "You are using the postData API endpoint";
 }
-
 
 export { fetchData, postData };
