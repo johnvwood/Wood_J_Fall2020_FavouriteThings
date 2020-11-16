@@ -9,6 +9,7 @@
     <meta name="description" content="Page showing a couple of favourite my things">
 </head>
 <body>
+    <h1 class="hidden">Favourite Things</h1>
     <header>
         <div class="navbar">
             <div id="logobox"></div>
@@ -22,11 +23,11 @@
         <div class="contentbox">
             <div id="arrowboxL"><div @click="clickL" id="arrowL"></div></div>
             <div id="dynamicbox">
-                <div id="dynamicImage" style="background: url(images/<?=$image?>) no-repeat left top">
-                    <h3 id="dynamicH"> <?=$title;?> </h3>
+                <div id="dynamicImage" style="background: url(images/soccer.jpg) no-repeat center; background-size: cover;">
+                    <h3 id="dynamicH">Soccer</h3>
                 </div>
                 <div id="dynamicDescBox">
-                    <p id="dynamicP"> <?=$desc;?> </p>
+                    <p id="dynamicP">Blablalbalblabla</p>
                 </div>
             </div>
             <div id="arrowboxR"><div @click="clickR" id="arrowR"></div></div>
