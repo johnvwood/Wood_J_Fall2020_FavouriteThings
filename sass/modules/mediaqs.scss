@@ -1,0 +1,13 @@
+//ipad
+@media (min-width: 481px) {
+    body {
+        background-color:red;
+    }
+}
+
+//desktop
+@media (min-width: 721px) {
+    body {
+        background-color:green;
+    }
+}
