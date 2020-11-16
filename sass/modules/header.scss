@@ -1,0 +1,32 @@
+//NAVBAR
+header { 
+    height: 60px;
+}
+
+.navbar {
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logobox {
+    background-color: lightblue;
+    height: 60px;
+    min-width: 60px;
+    cursor: pointer;
+}
+
+#headerbox {
+    background-color: darkred;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h2site {
+    margin: 12px;
+    color: white;
+}
