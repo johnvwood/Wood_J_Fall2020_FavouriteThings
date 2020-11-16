@@ -1,6 +1,12 @@
-{
-    "Music":{"Name":"Justin","Description":"i don't know", "Image":"music.jpg"},
-    "John":{"name":"John","role":"super chill prof","nickname":"just john", "biopic":"john.jpg"},
-    "Joe":{"name":"Joe","role":"Prof","nickname":"Teddy Bear", "biopic":"joe.jpg"},
-    "Pan":{"name":"Pan","role":"Code Ninja","nickname":"Spider Pan", "biopic":"pan.jpg"}
-  }
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"db_favourites"},
+{"type":"table","name":"tbl_favourites","database":"db_favourites","data":
+[
+{"ID":"1","Name":"Soccer","Description":"I've loved playing soccer since I was a kid. From indoor soccer to grass pitch soccer to soccer with a hockey puck, I'm always down for a game.","Image":"soccer.jpg"},
+{"ID":"2","Name":"Music","Description":"Music is one of my greatest interests. Maybe it's because of how easy it is in modern times to listen wherever you go. Or maybe it's just because I have a lot of spare time...","Image":"music.jpg"},
+{"ID":"3","Name":"Outdoors","Description":"Whether the weather is sunny, rainy or snowy, spending some time outside can be the best way to maintain a positive attitude and get some much needed exercise.","Image":"outdoors.jpg"},
+{"ID":"4","Name":"Old Movies","Description":"Nothing beats relaxing after a long day of IDP work by watching an old movie from a time when cinema was carefully constructing the foundation for the movies that we see today.","Image":"movies.jpg"}
+]
+}
+]
